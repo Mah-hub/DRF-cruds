@@ -1,7 +1,11 @@
-from rest_framework.serializers import ModelSerializer
+from rest_framework import serializers
 from .models import Site
+from items.serializers import itemSerializer
 
-class siteSeralizer(ModelSerializer):
+
+class siteSeralizer(serializers.ModelSerializer):
+    #items = itemSerializer(many=True)
+
     class Meta:
         model = Site
         fields ='__all__'
