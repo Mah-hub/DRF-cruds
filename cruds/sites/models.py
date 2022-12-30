@@ -1,4 +1,4 @@
-from django.db import models
+""" from django.db import models
 from items.models import Item
 
 # Create your models here.
@@ -9,4 +9,4 @@ class Site(models.Model):
     items       = models.ManyToManyField(Item)
 
     def __str__(self):
-        return (self.code)
+        return (self.code) """

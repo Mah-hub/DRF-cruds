@@ -1,4 +1,4 @@
-from django.shortcuts import render
+""" from django.shortcuts import render
 from .serializers import siteSeralizer
 from rest_framework.generics import ListAPIView,RetrieveAPIView
 from .models import Site
@@ -13,4 +13,4 @@ class siteRetriveAPIView(RetrieveAPIView):
     lookup_field= 'code'
     queryset = Site.objects.all()
         
-    
+     """
